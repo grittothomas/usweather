@@ -103,3 +103,6 @@ def stats():
             "precipitation": row[4]
         })
     return json.dumps(stats_data)
+
+if __name__ == "__main__":
+    app.run(debug =True)
