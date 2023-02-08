@@ -6,9 +6,9 @@ pip install flask
 pip install flask-restful
 pip install -U flask-SQLAlchemy
 pip install flask-swagger
-
-
-
+pip install flasgger==0.5.2
+pip install flask_restplus
+pip install flask-restx
 
 
 install Git.

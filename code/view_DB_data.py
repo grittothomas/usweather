@@ -11,7 +11,7 @@ conn = psycopg2.connect(
 
 cursor = conn.cursor()
 
-cursor.execute("SELECT * FROM weather_statistics")
+cursor.execute("SELECT * FROM weather_data")
 rows = cursor.fetchall()
 
 for row in rows:
