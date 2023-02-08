@@ -30,4 +30,9 @@ http://localhost:5000/api/weather/stats?year=1999&station=USC00110338&page=2&per
 
 http://localhost:5000/api/weather/stats?year=1985-01-01&station=USC00110072
 
+Documentation:
+
+http://localhost:5000
+
+
 
