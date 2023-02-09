@@ -11,7 +11,7 @@ conn = psycopg2.connect(
 
 cursor = conn.cursor()
 
-cursor.execute("SELECT * FROM weather_data")
+cursor.execute("SELECT * FROM weather_data WHERE max_temp = -999.9")
 rows = cursor.fetchall()
 
 for row in rows:
